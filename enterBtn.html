@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login</title>
+    <title>login-btn</title>
     <style>
     * {margin:0; padding:0; width:100%; height:100%; box-sizing:border-box;}
         body {display:flex; justify-content:center; align-items:center;}
-        .enter-btn {background-color:#E7E7FF; width: 389px; height:127px; border:none; cursor: pointer; color:#6B4EFF; border-radius:48px; font-size:32px; font-weight:500;}
+        .btn {width:30%; height:auto;}
+        .enter-btn {background-color:#E7E7FF; width:100%; height:127px; border:none; cursor: pointer; color:#6B4EFF; border-radius:48px; font-size:32px; font-weight:500;}
 
-        @media (max-width:768px) {.login {width:50%;}}
-        @media (max-width:576px) {.login {width:75%;}}  
+        @media (max-width:768px) {.btn {width:50%;}}
+        @media (max-width:576px) {.btn {width:75%;}}  
     </style>
 </head>
 <body>
+    <div class="btn">
         <button class="enter-btn">Enter Class</button>
+    </div>    
 </body>
 </html>
